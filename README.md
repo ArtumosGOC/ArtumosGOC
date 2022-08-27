@@ -30,5 +30,5 @@
  
     
 ###  Futuro engenheiro de software :kissing_closed_eyes::grin:
-![Snake animation](https://github.com/MariaIsabellaMiranda/MariaIsabellaMiranda/blob/output/github-contribution-grid-snake.svg)<br>
+![Snake animation](https://github.com/ArtumosGoc/ArtumosGoc/blob/output/github-contribution-grid-snake.svg)<br>
 :worried: *espero futuramente que outras áreas de conseitos escolares sejam mais usados diariamente... para não perder espaço na minha [random access memory](https://www.techtudo.com.br/noticias/2012/02/o-que-e-memoria-ram-e-qual-sua-funcao.ghtml)* :worried:
