@@ -1,0 +1,5 @@
+ano_n = int(input('Olá em que ano você nasceu:\n'))
+mes_n = str(input('E qual foi o mês do seu nascimento:\n'))
+dia_n = int(input('Agora, só falta digitar o dia, por favor:\n'))
+print(f'Então você nasceu no dia {dia_n} de {mes_n} de {ano_n}, é isso mesmo?')
+print(f'Em 2023 você vai completar {2023- ano_n} anos.')
