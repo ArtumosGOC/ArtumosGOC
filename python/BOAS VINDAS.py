@@ -1,4 +1,4 @@
-boas_vindas = "Olá, Campo Mourão"
+boas_vindas = "Olá, Mundo"
 print(boas_vindas)
 nome = input('Como você se chama? \n')
 idade = int(input('Quantos anos você tem? \n'))
