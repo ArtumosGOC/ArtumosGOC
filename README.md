@@ -38,6 +38,14 @@
  <img src="https://cdn-icons-png.flaticon.com/512/136/136528.png" width="35" height="40"/>!!
  
  </details>
+ <details>
+   <summary>Por que não tem muito aqui?</summary>
+ <br>
+ 
+ 
+  - Começei a postar coisas recentemente aqui, com o tempo irei adicionando mais coisas ao perfil.
+
+</details>
  
     
 ###  Futuro engenheiro de software :kissing_closed_eyes::grin:
