@@ -1,6 +1,6 @@
 print("Hello World")
-nome="Elias Miranda"
-sob="Junior"
+nome="Artumos_"
+sob="GOC"
 print(nome+" "+sob)
 idade = 17
 num = 140
