@@ -6,4 +6,4 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: 3+1
+          issue-number: ${{1}}
