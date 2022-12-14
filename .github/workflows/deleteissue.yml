@@ -3,11 +3,9 @@ jobs:
   titlePrefixCheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         env:
-          PR_NUMBER: ${{ github.event.number }}
+          PR_NUMBER: ${{github.event.issue.number}}
         with:
-          issue-number: PR_NUMBER
+          issue-number: ${{env.PR_NUMBER}}
