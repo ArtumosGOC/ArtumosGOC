@@ -3,6 +3,12 @@ jobs:
   titlePrefixCheck:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675
+      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.2.0
+      - uses: actions/checkout@main
+      - uses: actions/aws/ec2@main
+      - uses: ./.github/actions/my-action
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
