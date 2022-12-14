@@ -1,12 +1,47 @@
 name: boletim-diario
-on: push
+on:
+    schedule:
+     - cron: '0 13 * * *'
+permissions:
+  contents: read
+  issues: write
 jobs:
-  delete-issue:
+  boletim-diario:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+
+      - name: criar-boletim
+        run: |
+
+          # Boletim diario de segurança
+          sudo apt-get update -y
+          sudo apt -y install libxml2-utils
+          chmod +X ./script.sh
+          bash ./script.sh
+
+          echo "SCRIPT_DATA=$(date +'%d/%m/%Y')" >> $GITHUB_ENV
+          echo "SCRIPT_DAY=$(date +'%d')" >> $GITHUB_ENV
+          echo 'SCRIPT_CONTEUDO<<EOF' >> $GITHUB_ENV
+          cat boletim_final.txt >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+      - uses: JasonEtco/create-an-issue@v2
+        id: create-issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DATA: ${{ env.SCRIPT_DATA }}
+        with:
+          filename: .github/boletim.md
+
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ steps.create-issue.outputs.number }}
+          reactions: '+1'
+          body: "asdsadsadsdsadsadsdasd"
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: first
+          issue-number: ${{ steps.create-issue.outputs.number - 1 }}
           comment: Auto-closing issue
-    
