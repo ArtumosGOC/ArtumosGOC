@@ -27,5 +27,5 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: ${{ steps.create-issue.outputs.number - 1 }}
+          issue-number: ${{ steps.create-issue.outputs.number}}-1
           comment: Auto-closing issue
