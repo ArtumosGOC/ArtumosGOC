@@ -6,5 +6,4 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: ${{ steps.create-issue.outputs.number }}
-          reactions: '+1'
+          issue-number: 1
