@@ -8,4 +8,4 @@ jobs:
         env:
           PR_NUMBER: ${{github.event.issue.number}}
         with:
-          issue-number: ${{env.PR_NUMBER}}
+          issue-number: ${{github.event.issue.number}}
