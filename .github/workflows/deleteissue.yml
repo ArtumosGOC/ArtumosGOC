@@ -7,6 +7,6 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: 1
+          issue-number: first
           comment: Auto-closing issue
     
