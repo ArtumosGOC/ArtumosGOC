@@ -9,4 +9,4 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: ${{env.PR_NUMBER - 1}}
+          issue-number: ${{env.PR_NUMBER}}
