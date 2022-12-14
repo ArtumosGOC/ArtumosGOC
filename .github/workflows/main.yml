@@ -53,3 +53,6 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2.2.0
+
