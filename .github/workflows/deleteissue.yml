@@ -4,7 +4,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        env:
+            PR_NUMBER: ${{ github.event.number }}
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: ${{github.event.issue.number - 1 }}
+          issue-number: ${{env.PR_NUMBER - 1}}
