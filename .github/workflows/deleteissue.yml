@@ -1,14 +1,9 @@
-name: boletim-diario
 on: push
-permissions:
-  contents: read
-  issues: write
 jobs:
-  boletim-diario:
+  titlePrefixCheck:
     runs-on: ubuntu-latest
     steps:
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: ${{ steps.create-issue.outputs.number}}-1
-          comment: Auto-closing issue
+          issue-number: ${{ steps.create-issue.outputs.number }} - 1
