@@ -7,23 +7,6 @@ jobs:
   boletim-diario:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: criar-boletim
-        run: |
-
-          # Boletim diario de segurança
-          sudo apt-get update -y
-          sudo apt -y install libxml2-utils
-          #chmod +X ./script.sh
-          #bash ./script.sh
-
-          #echo "SCRIPT_DATA=$(date +'%d/%m/%Y')" >> $GITHUB_ENV
-          echo "SCRIPT_DAY=$(date +'%d')" >> $GITHUB_ENV
-          #echo 'SCRIPT_CONTEUDO<<EOF' >> $GITHUB_ENV
-          #cat boletim_final.txt >> $GITHUB_ENV
-          #echo 'EOF' >> $GITHUB_ENV
-
       - name: Close Issue
         uses: peter-evans/close-issue@v2
         with:
