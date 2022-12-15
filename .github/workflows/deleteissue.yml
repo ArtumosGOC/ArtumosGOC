@@ -43,7 +43,7 @@ jobs:
           echo $env.PR_NUMBER
           echo ${{ env.PR_NUMBER }}
           
-          cat numero_final.txt
+          gh issue close | \ cat numero_final.txt
           
           echo passou por aqui!
           
