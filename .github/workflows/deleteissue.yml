@@ -22,7 +22,7 @@ jobs:
           #bash ./script.sh
           
           chmod +X ./test.sh
-          bash ./script.sh
+          bash ./test.sh
           
           
           
