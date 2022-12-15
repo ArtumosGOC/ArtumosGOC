@@ -45,7 +45,7 @@ jobs:
           
           var=$( cat numero_final.txt )
           echo $var
-          #gh issue close $var
+          gh issue close $var
           
           echo passou por aqui!
           
