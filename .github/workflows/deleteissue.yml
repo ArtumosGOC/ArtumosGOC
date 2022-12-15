@@ -32,4 +32,5 @@ jobs:
           #gh issue close $valueissue
           #gh issue list --state closed
           echo ${{ !github.event.issue.number }}
+          echo $github.event.issue.number
           echo passou por aqui!
