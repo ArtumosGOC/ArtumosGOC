@@ -28,7 +28,7 @@ jobs:
           
           #testando gh
           value_issue = "${{env.PR_NUMBER}}"
-          gh issue close "${!value_issue}"
+          gh issue close value_issue
           #gh issue list --state closed
           
 
