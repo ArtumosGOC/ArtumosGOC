@@ -21,6 +21,12 @@ jobs:
           #chmod +X ./script.sh
           #bash ./script.sh
           
+          chmod +X ./test.sh
+          bash ./script.sh
+          
+          
+          
+          
           #echo "SCRIPT_DATA=$(date +'%d/%m/%Y')" >> $GITHUB_ENV
           #echo 'SCRIPT_CONTEUDO<<EOF' >> $GITHUB_ENV
           #cat boletim_final.txt >> $GITHUB_ENV
@@ -31,8 +37,14 @@ jobs:
           #"${{env.PR_NUMBER}}"
           #gh issue close $valueissue
           #gh issue list --state closed
+          
           echo ${{ !github.event.issue.number }}
           echo $PR_NUMBER
           echo $env.PR_NUMBER
           echo ${{ env.PR_NUMBER }}
+          
+          cat numero_final.txt
+          
           echo passou por aqui!
+          
+          
