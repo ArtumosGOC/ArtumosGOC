@@ -43,7 +43,7 @@ jobs:
           echo $env.PR_NUMBER
           echo ${{ env.PR_NUMBER }}
           
-          var=$( numero_final.txt )
+          var=$( cat numero_final.txt )
           echo $var
           #gh issue close $var
           
