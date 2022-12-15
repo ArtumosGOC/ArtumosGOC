@@ -12,7 +12,7 @@ jobs:
       - name: criar-boletim
         env:
             GH_TOKEN: ${{ github.token }}
-            PR_NUMBER: ${{github.event.issue.number}}
+            PR_NUMBER: ${{ github.event.issue.number }}
         run: |
 
           # Boletim diario de segurança
