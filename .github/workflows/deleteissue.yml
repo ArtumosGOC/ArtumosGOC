@@ -42,8 +42,8 @@ jobs:
           echo $PR_NUMBER
           echo $env.PR_NUMBER
           echo ${{ env.PR_NUMBER }}
-          
-          gh issue close | \ cat numero_final.txt
+          var=$(numero_final.txt)
+          gh issue close $var
           
           echo passou por aqui!
           
