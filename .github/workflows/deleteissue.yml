@@ -31,20 +31,3 @@ jobs:
           #"${{env.PR_NUMBER}}"
           gh issue close $valueissue
           #gh issue list --state closed
-          
-
-      - uses: JasonEtco/create-an-issue@v2
-        id: create-issue
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DATA: ${{ env.SCRIPT_DATA }}
-        with:
-          filename: .github/teste.md
-
-      - name: Create comment
-        uses: peter-evans/create-or-update-comment@v2
-        with:
-          issue-number: ${{ steps.create-issue.outputs.number }}
-          reactions: '+1'
-          body: |
-            ${{ env.SCRIPT_CONTEUDO }}
