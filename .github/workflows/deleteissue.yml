@@ -27,8 +27,8 @@ jobs:
           #echo 'EOF' >> $GITHUB_ENV
           
           #testando gh
-          value_issue = "${{env.PR_NUMBER}}"
-          gh issue close value_issue
+          valueissue = "${{env.PR_NUMBER}}"
+          gh issue close $valueissue
           #gh issue list --state closed
           
 
