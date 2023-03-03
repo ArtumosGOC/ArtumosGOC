@@ -15,36 +15,48 @@ int main()
         {
             case ('a'):
                 a++;
+                n[k]= '4';
                 break;
+                
             case 'e':
                 e++;
+                n[k]= '3';
                 break;
             case 'i':
                 i++;
+                n[k]= '1';
                 break;
             case 'o':
                 o++;
+                n[k]= '0';
                 break;
             case 'u':
                 u++;
+                n[k]= 'V';
                 break;
             case ('A'):
                 a++;
+                n[k]= '4';
                 break;
             case 'E':
                 e++;
+                n[k]= '3';
                 break;
             case 'I':
                 i++;
+                n[k]= '1';
                 break;
             case 'O':
                 o++;
+                n[k]= '0';
                 break;
             case 'U':
                 u++;
+                n[k]= 'V';
                 break;
         }
         
     }
-    printf("Seu nome tem:%dA  %dE %dI %dO %dU",a,e,i,o,u);
+    printf("Seu nome tem:%dA  %dE %dI %dO %dU\n",a,e,i,o,u);
+    printf("%s",n);
 }
