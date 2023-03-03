@@ -2,14 +2,10 @@
 
 int main()
 {
-    char nome;
+    char nome[50];
 
     printf("Digite seu nome:");
-    scanf("%c",&nome);
-
-    if (nome == "a")
-    {
-        printf("");
-    }
+    scanf("%[^\n]",nome);
+    if(nome[0]=='a'||nome[0]=='A')printf("%s",nome);
     
 }
