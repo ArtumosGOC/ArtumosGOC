@@ -9,7 +9,7 @@
 
 
 <br>
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArtumosGOC&layout=compact&langs_count=10&theme=dracula"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=artumosgoc&layout=compact&langs_count=10&theme=dracula"/>
 <br>
 <br>
  
