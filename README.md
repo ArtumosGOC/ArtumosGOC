@@ -10,9 +10,9 @@
   <details>
     <summary>Sobre Mim</summary>
   
- - ESTUDANTE DO ENSINO MÉDIO 
-- ALUNO DA [CODAQUI](https://www.codaqui.dev/)
-- ALUNO DA FUNDAÇÃO EDUCERE
+      - ESTUDANTE DO ENSINO MÉDIO 
+      - ALUNO DA [CODAQUI](https://www.codaqui.dev/)
+      - EXALUNO DA FUNDAÇÃO [EDUCERE](https://www.educere.org.br/home)
   </details>
   <details>
     <summary>Oque estudo atualmente</summary>
@@ -35,9 +35,8 @@
  <details>
    <summary>Por que não tem muito aqui?</summary>
  <br>
- 
- 
-  - Começei a postar coisas recentemente aqui, com o tempo irei adicionando mais coisas ao perfil.
+
+ - Utilizo o github apenas para Upar atividades escolares e trabalhos do meu dia a dia
 
 </details>
  
