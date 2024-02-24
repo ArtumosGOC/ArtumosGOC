@@ -10,9 +10,9 @@
   <details>
     <summary>Sobre Mim</summary>
   
-      - ESTUDANTE DO ENSINO MÉDIO 
-      - ALUNO DA [CODAQUI](https://www.codaqui.dev/)
-      - EXALUNO DA FUNDAÇÃO [EDUCERE](https://www.educere.org.br/home)
+- ESTUDANTE DO ENSINO MÉDIO 
+- ALUNO DA [CODAQUI](https://www.codaqui.dev/)
+- EXALUNO DA FUNDAÇÃO [EDUCERE](https://www.educere.org.br/home)
   </details>
   <details>
     <summary>Oque estudo atualmente</summary>
