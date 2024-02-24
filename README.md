@@ -41,7 +41,7 @@
 </details>
  
     
-###  Futuro engenheiro de embarcados:kissing_closed_eyes::grin:
+###  Futuro engenheiro de embarcados :kissing_closed_eyes::grin:
 :worried: *espero futuramente que outras áreas de conseitos escolares sejam mais usados diariamente... para não perder espaço na minha [random access memory](https://www.techtudo.com.br/noticias/2012/02/o-que-e-memoria-ram-e-qual-sua-funcao.ghtml)* :worried:
 
 
