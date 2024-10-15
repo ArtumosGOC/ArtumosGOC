@@ -1,5 +1,13 @@
 # </Hello_World!>
 
+```python 
+ Gosto muito do Wrench, personagem mais carismatico da saga Watch Dogs 2
+
+"seu ponto forte é esse seu senso de humor e carisma."
+
+
+```
+
 `Bem vindos ao meu perfil!`
 
 <br>
