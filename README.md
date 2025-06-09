@@ -12,8 +12,6 @@
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=artumosgoc&show_icons=true&theme=dracula&include_all_commits=true&count_private=false"/>
 <img align="right" src="https://i.pinimg.com/originals/d4/c4/79/d4c479420a04d57fd9d2e049419dbace.gif" width="134" height="194"/>
 
-<br>
-
 <details>
   <summary>Sobre Mim</summary>
 
