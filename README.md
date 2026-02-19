@@ -9,13 +9,6 @@
 
 <br>
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=artumosgoc&show_icons=true&theme=dracula&include_all_commits=true&count_private=false"/>
-  <img src="https://i.pinimg.com/originals/d4/c4/79/d4c479420a04d57fd9d2e049419dbace.gif" width="134" height="194" style="float: right;" align="right"/>
-</div>
-
-<br>
-
 <details>
   <summary>Sobre Mim</summary>
 
@@ -53,6 +46,17 @@
 - [Sexta-Feira | Descontinuado](https://github.com/ArtumosGOC/Sexta-Feira)
 
 </details>
+
+<br>
+
+<div align="left">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ArtumosGOC/ArtumosGOC/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ArtumosGOC/ArtumosGOC/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ArtumosGOC/ArtumosGOC/output/github-contribution-grid-snake.svg">
+  </picture>
+  <br>
+</div>
 
 
 ---
