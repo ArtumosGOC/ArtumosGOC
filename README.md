@@ -1,160 +1,190 @@
 <div align="center">
 
 ```
-██████╗  ██████╗  ██████╗
-██╔════╝ ██╔═══██╗██╔════╝
-██║  ███╗██║   ██║██║
-██║   ██║██║   ██║██║
-╚██████╔╝╚██████╔╝╚██████╗
- ╚═════╝  ╚═════╝  ╚═════╝
-                                  [ ArtumosGOC ]
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│   ██████╗  ██████╗  ██████╗     // ArtumosGOC                      │
+│  ██╔════╝ ██╔═══██╗██╔════╝     // SYSTEM ARCHITECT                │
+│  ██║  ███╗██║   ██║██║          // HARDWARE + SECURITY             │
+│  ██║   ██║██║   ██║██║          // CIVIC TECH DEVELOPER            │
+│  ╚██████╔╝╚██████╔╝╚██████╗     //                                 │
+│   ╚═════╝  ╚═════╝  ╚═════╝     // Maringá, PR — BR               │
+│                                                                     │
+│   [CPU: zsh]  [KERNEL: linux]  [SEC: tpm2.0]  [STATUS: online]     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=650&lines=Studying+TPM+2.0+%2F+Hardware-Bound+Cryptography+%F0%9F%94%90;Civic+Tech+%7C+Embedded+Systems+%7C+Infra;Container+Internals+%7C+Rootless+Podman+%7C+Docker;Bare-Metal+C+%7C+ESP32+%7C+STM32+%7C+AVR;watch-dogs+2+was+a+documentary+%F0%9F%8E%AD)](https://github.com/ArtumosGOC)
 
 </div>
 
 ---
+
+## `[ HARDWARE PROFILE ]`
 
 ```asm
-; /proc/self — dump de registradores
-section .data
-  NAME      db "GOC", 0
-  ARCH      db "x86_64 / ARM / AVR", 0
-  OS        db "Linux — always", 0
-  SHELL     db "zsh + oh-my-zsh", 0
-  LOC       db "Maringá, PR — Brasil", 0
-  FOCUS     db "civic tech · hardware · security", 0
-  WIP       db "TPM 2.0 + encrypted apps", 0   ; <-- atualmente
+; /proc/self — ArtumosGOC
+; ─────────────────────────────────────────────────────────────────────
+ROLE:         Civic Tech Developer / Hardware Hacker / Infra Engineer
+OS:           Linux (Debian-based)  │  SHELL: zsh + oh-my-zsh
+CURRENT_OBJ:  TPM 2.0 + hardware-bound encrypted app research
+FOCUS:        Bare-metal C, embedded MCUs, container runtimes, YAML-driven civic web
+TRUST_ANCHOR: Hardware ← "the only real root of trust"
+PHILOSOPHY:   Zero bloat. CDN-only. Lean stack. Auditable everything.
+; ─────────────────────────────────────────────────────────────────────
 ```
 
 ---
 
-## `[ HARDWARE STACK ]`
+## `[ ACTIVE PROJECTS — SCHEMATIC VIEW ]`
 
 ```
-┌─────────────────────────────────────────────────────┐
-│  CPU         x86_64  ·  ARM Cortex  ·  AVR  ·  ESP32 │
-│  STORAGE     NVMe  ·  eMMC  ·  EEPROM                 │
-│  SECURITY    TPM 2.0  ·  HSM  ·  Secure Boot          │
-│  NET         Ethernet  ·  Wi-Fi  ·  LoRa              │
-│  DEBUG       JTAG  ·  UART  ·  GDB  ·  Oscilloscope  │
-└─────────────────────────────────────────────────────┘
+┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+│  🏙️  Maringá Participativa        │   │  🔐  TPM 2.0 Research              │
+│  ─────────────────────────────    │   │  ─────────────────────────────    │
+│  Civic participation platform     │   │  Hardware-bound crypto app dev    │
+│  HTML · CSS · Bootstrap 5         │   │  tpm2-tools · tss2 · C libs       │
+│  JS · YAML · js-yaml              │   │  Studying: sealing, PCR, NVRAM    │
+│  Deployed via GitHub Pages        │   │  Target: tamper-evident storage   │
+└───────────────────────────────────┘   └───────────────────────────────────┘
+
+┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+│  🖥️  web-terminal                 │   │  📰  boletim-diario-segurança      │
+│  ─────────────────────────────    │   │  ─────────────────────────────    │
+│  Per-session container runtime   │   │  Daily infosec bulletin bot        │
+│  Docker · Podman (rootless)       │   │  GitHub Actions · Python 3        │
+│  VFS storage driver               │   │  BeautifulSoup · lxml             │
+│  Bypass overlayfs + iptables      │   │  Auto-scrape → Markdown report    │
+└───────────────────────────────────┘   └───────────────────────────────────┘
+
+┌───────────────────────────────────┐   ┌───────────────────────────────────┐
+│  🔡  bitmap-font / bare-metal     │   │  🛠️  EditorYml (Desktop App)       │
+│  ─────────────────────────────    │   │  ─────────────────────────────    │
+│  8×8 ASCII font — C header        │   │  PySide6 / QML YAML editor        │
+│  96-char table, uint8_t[96][8]    │   │  Generates site HTML + YAML       │
+│  AVR · ESP32 · STM32              │   │  Google Drive attachment sync     │
+│  No OS. No libs. Pure registers.  │   │  Image carousel support           │
+└───────────────────────────────────┘   └───────────────────────────────────┘
 ```
 
 ---
 
-## `[ PROJETOS — /dev/ ]`
+## `[ SIGNAL STACK — SKILL MATRIX ]`
 
-| device | descrição | tech |
-|--------|-----------|------|
-| `sda0` **Maringá Participativa** | Plataforma de participação cívica open source | `HTML` `Bootstrap 5` `JS` `YAML` |
-| `sda1` **web-terminal** | Terminal web containerizado por sessão | `Docker` `Podman` `Bash` |
-| `sda2` **boletim-segurança** | Pipeline diário de cybersegurança via GitHub Actions | `Python` `BeautifulSoup` `GH Actions` |
-| `sda3` **EditorYml** | Editor desktop PySide6/QML — gera YAML + HTML | `Python` `PySide6` `QML` |
-| `sda4` **bitmap-font-8x8** | `static const uint8_t ascii[96][8]` — bare-metal | `C` `AVR` `STM32` `ESP32` |
-| `sda5` **cloudflare-scripts** | Expose local → public + OAuth 2.0/PKCE DNS automation | `Python` `Cloudflare API` |
+```
+LAYER 0 — HARDWARE & EMBEDDED
+──────────────────────────────────────────────────────────────
+  C (bare-metal)     ████████████░░  AVR / ESP32 / STM32
+  Assembly (AVR)     ████████░░░░░░  Register-level
+  TPM 2.0 (tss2)     ██████░░░░░░░░  Learning / Research
+  Web Serial API     ███████░░░░░░░  Browser ↔ Arduino
+  Bitmap fonts       █████████░░░░░  uint8_t pixel arrays
+──────────────────────────────────────────────────────────────
+
+LAYER 1 — INFRA & CONTAINERS
+──────────────────────────────────────────────────────────────
+  Docker / Podman    ████████████░░  Rootless, VFS, nested
+  Nginx              ████████████░░  Reverse proxy, auth
+  GitHub Actions     █████████████░  CI/CD, automation
+  Cloudflare         ███████████░░░  Tunnel, DNS, OAuth PKCE
+  Linux (Debian)     █████████████░  Daily driver
+──────────────────────────────────────────────────────────────
+
+LAYER 2 — SOFTWARE
+──────────────────────────────────────────────────────────────
+  Python 3           █████████████░  Scripts, GH Actions, PySide6
+  Bash / Zsh         ████████████░░  Automation, DevOps
+  HTML/CSS/JS        ████████████░░  Vanilla, Bootstrap 5
+  YAML / js-yaml     █████████████░  Site content engine
+  PySide6 / QML      ████████░░░░░░  Desktop app dev
+──────────────────────────────────────────────────────────────
+```
 
 ---
 
-## `[ LINGUAGENS — objdump ]`
+## `[ SECURITY INTERESTS — /proc/threat_model ]`
+
+```yaml
+hardware_security:
+  - TPM 2.0: sealing blobs, PCR attestation, NVRAM storage
+  - Secure boot chain analysis
+  - Hardware root-of-trust concepts
+
+infra_security:
+  - Container runtime isolation (seccomp, AppArmor, namespaces)
+  - Rootless container privilege model
+  - OAuth 2.0 + PKCE flows, token lifecycle
+
+low_level:
+  - Kernel restrictions in nested container environments
+  - clone() CLONE_NEWUSER syscall restrictions
+  - VFS vs overlayfs storage driver security model
+
+recon_interest:
+  - Network exposure via Cloudflare Tunnel (zero-trust model)
+  - Daily infosec bulletin monitoring (Codaqui org)
+  - Browser-based runtimes (Pyodide, Web Serial API)
+```
+
+---
+
+## `[ ORGANIZATIONS ]`
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=4ADE80)
-![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=4ADE80)
-![Bash](https://img.shields.io/badge/Bash-111827?style=for-the-badge&logo=gnubash&logoColor=4ADE80)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=4ADE80)
-![YAML](https://img.shields.io/badge/YAML-111827?style=for-the-badge&logo=yaml&logoColor=4ADE80)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=4ADE80)
+[![Codaqui](https://img.shields.io/badge/Org-Codaqui-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/Codaqui)
+&nbsp;
+[![Maringá Participativa](https://img.shields.io/badge/Project-Maringá_Participativa-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/ArtumosGOC)
 
 </div>
 
 ---
 
-## `[ INFRA — lsblk ]`
+## `[ RUNTIME STATS ]`
 
 <div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=4ADE80)
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=4ADE80)
-![Podman](https://img.shields.io/badge/Podman-111827?style=for-the-badge&logo=podman&logoColor=4ADE80)
-![Nginx](https://img.shields.io/badge/Nginx-111827?style=for-the-badge&logo=nginx&logoColor=4ADE80)
-![GitHub Actions](https://img.shields.io/badge/GH_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=4ADE80)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-111827?style=for-the-badge&logo=cloudflare&logoColor=4ADE80)
-![Arduino](https://img.shields.io/badge/Arduino-111827?style=for-the-badge&logo=arduino&logoColor=4ADE80)
-![ESP32](https://img.shields.io/badge/ESP32-111827?style=for-the-badge&logo=espressif&logoColor=4ADE80)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ArtumosGOC&show_icons=true&theme=chartreuse-dark&bg_color=0D1117&border_color=00FF41&icon_color=00FF41&title_color=00FF41&text_color=c9d1d9&rank_icon=github)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArtumosGOC&layout=compact&bg_color=0D1117&border_color=00FF41&title_color=00FF41&text_color=c9d1d9)
+
+![Streak](https://streak-stats.demolab.com?user=ArtumosGOC&theme=dark&background=0D1117&border=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=c9d1d9)
 
 </div>
 
 ---
 
-## `[ INTERESSES — /sys/kernel ]`
+## `[ FIRMWARE v2.0 — DESIGN RULES ]`
 
 ```c
-typedef struct {
-  char topic[64];
-  uint8_t intensity;     /* 0x00 – 0xFF */
-  bool  active;
-} interest_t;
+/* principles.h */
 
-interest_t interests[] = {
-  { "hardware_hacking",        0xF5, true  },
-  { "tpm2_cryptography",       0xE8, true  },  // <-- WIP
-  { "embedded_systems",        0xE0, true  },
-  { "civic_tech",              0xD5, true  },
-  { "container_internals",     0xC8, true  },
-  { "reverse_engineering",     0xC0, true  },
-  { "low_level_C",             0xB8, true  },
-  { "watch_dogs_2_aesthetic",  0xFF, true  },  // vibe > skill
-};
+#define DEPENDENCY_POLICY       ZERO_UNLESS_JUSTIFIED
+#define TRUST_BOUNDARY          HARDWARE_ONLY
+#define DEPLOYMENT_TARGET       CDN_OR_STATIC
+#define CODE_STYLE              AUDITABLE_AND_LEAN
+#define OPEN_SOURCE_STANCE      IF_IT_TOUCHES_PUBLIC_DATA_IT_SHIPS_OPEN
+
+typedef enum {
+    PRIORITY_CIVIC_IMPACT,
+    PRIORITY_SECURITY,
+    PRIORITY_REPRODUCIBILITY,
+    PRIORITY_PERFORMANCE,
+} BuildPriority;
 ```
-
----
-
-## `[ FILOSOFIA — .rodata ]`
-
-```
-0x0001  Dependências mínimas. CDN quando possível.
-0x0002  Software público precisa ser auditável.
-0x0003  Hardware é o único root of trust real — por isso TPM.
-0x0004  Entender o sistema melhor do que quem o construiu é o melhor ataque.
-0x0005  Civic tech não é nicho. É obrigação.
-```
-
----
-
-## `[ STATS — perf stat ]`
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ArtumosGOC&show_icons=true&theme=dark&bg_color=111827&border_color=4ADE80&icon_color=4ADE80&title_color=4ADE80&text_color=D1FAE5&ring_color=4ADE80)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArtumosGOC&layout=compact&theme=dark&bg_color=111827&border_color=4ADE80&title_color=4ADE80&text_color=D1FAE5)
-
-![Streak](https://streak-stats.demolab.com?user=ArtumosGOC&theme=dark&background=111827&border=4ADE80&ring=4ADE80&fire=4ADE80&currStreakLabel=4ADE80&sideLabels=4ADE80&dates=D1FAE5)
-
-</div>
-
----
-
-## `[ ORGS — /etc/group ]`
-
-<div align="center">
-
-[![Codaqui](https://img.shields.io/badge/org-Codaqui-111827?style=for-the-badge&logo=github&logoColor=4ADE80)](https://github.com/Codaqui)
-[![Diretoria Inovação](https://img.shields.io/badge/org-Diretoria_Inovação_AMTECH-111827?style=for-the-badge&logo=github&logoColor=4ADE80)](https://github.com/Diretoria-de-Inovacao-AMTECH)
-
-</div>
 
 ---
 
 <div align="center">
 
 ```
-[ HALT — 0x00 — KERNEL PANIC NOT EXPECTED ]
-
-"Not_a_Bug. It's_an_Undocumented_Feature."
+╔═══════════════════════════════════════════════════════════╗
+║  [ SESSION CLOSED ]   [ MEMORY WIPED ]   [ TPM SEALED ]  ║
+╚═══════════════════════════════════════════════════════════╝
 ```
 
-![Visitors](https://komarev.com/ghpvc/?username=ArtumosGOC&color=4ADE80&style=flat-square&label=0x_accesses)
+![Visitor Count](https://komarev.com/ghpvc/?username=ArtumosGOC&color=00ff41&style=flat-square&label=PACKETS_RECEIVED)
+
+*"The hardware doesn't lie. The software might."*
 
 </div>
